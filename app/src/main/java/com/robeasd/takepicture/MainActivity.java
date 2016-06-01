@@ -87,7 +87,7 @@ public class MainActivity extends AppCompatActivity {
                 public void onClick(View v) {
                     requestPermissions(new String[]{WRITE_EXTERNAL_STORAGE, CAMERA}, MY_PERMISSIONS);
                 }
-            });
+            }).show();
         }else{
             requestPermissions(new String[]{WRITE_EXTERNAL_STORAGE, CAMERA}, MY_PERMISSIONS);
         }
